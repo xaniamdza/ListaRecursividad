@@ -5,9 +5,10 @@ def sumalista(n):
     return suma
 
 def slista_rec(n):
-    
-    for x in range(len(n)):
-        return slista_rec(n[x]) + n[x]
+    x = 0
+    for i in n: 
+        x += i
+    return x        
 
 def main ():
 
